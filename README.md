@@ -5,7 +5,7 @@ MentorMatch is a Flask web app that recommends mentors using sentence embeddings
 ## 🚀 Features
 - Embedding-based search with `sentence-transformers` (`all-MiniLM-L6-v2`)
 - `/find_mentor` JSON API + simple web UI (`templates/index.html`)
-- Works with scraped mentors; optionally merges LinkedIn data if available
+- Works with scraped mentors and LinkedIn.
 
 ## 📂 Project Structure
 - `app.py` – Flask app (loads data, serves UI & API)
